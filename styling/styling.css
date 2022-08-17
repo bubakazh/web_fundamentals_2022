@@ -1,0 +1,33 @@
+*{
+    margin: 4px;
+    padding: 4px;
+}
+    
+h1{
+    color: white;
+    background-color: black;
+    text-align: left;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+.cloud{
+    color:aqua
+}
+h2{
+    color: white;
+    background-color: rebeccapurple;
+    font-style: italic;
+    text-align: center;
+    font-family: cursive;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+h3{
+    color: blue;
+    background-color: lightblue;
+    text-decoration: underline;
+    text-align: end;
+    font-family: cursive;
+}
