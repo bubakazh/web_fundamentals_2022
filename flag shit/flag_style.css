@@ -1,0 +1,26 @@
+*{
+    padding 0;
+    margin 0;
+}
+.container{
+    width: 970px;
+    background-color: rebeccapurple;
+}
+.flag{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.symbol{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    
+}
