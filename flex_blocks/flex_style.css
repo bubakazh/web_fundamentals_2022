@@ -2,40 +2,49 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 20px;
 }
 .top-nav {
     height: 150px;
     background-color: green;
+    margin-bottom: 15px;
+    
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
+    margin-right: 15px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
+    padding: 10px;
+
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
+   justify-content: space-around; /* THIS SEEMS TO NOT CHANGE ANYTHING */
+   margin: 10px;
+   padding: 10px;
     
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    
 }
-.side-nav, .main{
-    display: inline-block;
-    vertical-align: top;
-}
+
 .row {
     /* TODO - what should go here? */
-    display: flex;
-    align-content: center;
-    justify-content: center;
+        display: flex;
+
 }
 
