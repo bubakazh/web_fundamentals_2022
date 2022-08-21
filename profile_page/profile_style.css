@@ -1,0 +1,35 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: black;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+h1{
+    color: white;
+    
+    
+}
+p{
+    color: white;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    color: white;
+    list-style: none;
+    padding-right: 10px;
+}
+button{
+    width: 100px;
+    height: 33px;
+}
