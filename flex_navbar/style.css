@@ -1,0 +1,56 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+h1{
+    margin-left: 32px;
+    font-size: 42px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.nav-links{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    margin-right: 50px;
+    padding-top: 8px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    /* vertical-align: bottom; */
+    
+}
+.active{
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.btn{
+    height: 32px;
+    width: 110px;
+    background-color: rgb(102, 166, 249);
+    font-size: 14px;
+    color: white;
+    border: solid black thin;
+    box-shadow: 8px 5px 5px rgb(255, 255, 255);
+;
+}
