@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 280px;
+}
+
+.usercard{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 696px;
+    border: solid grey 3px;
+}
+
+.avatarIcon{
+    height: 90px;
+    width: 90px;
+    padding-left: 42px;
+    padding-top: 45px; 
+    position: absolute;
+    
+}
+
+.usercardTop{
+    flex: 2;
+    background-color: turquoise;
+}
+
+.usercardBottom{
+    flex: 5;
+    margin: 30 15px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    
+}
+
+.map{
+    height: 20px;
+    width: 13px;
+    margin-right: 10px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+h3{
+    margin-bottom: 20px;
+    padding-top: 15px;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.top{
+    /* margin-top: 10px; */
+    font-size: 18px;
+}
+
+.bottom{
+    margin-bottom: 20px;
+    font-size: 18px;;
+}
+
+.edit{
+    font-size: 18px;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.gear{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
