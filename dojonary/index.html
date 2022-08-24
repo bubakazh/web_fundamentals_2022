@@ -5,19 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="navBar"></div>
-        <div class="main">
-            <div class="entry">
-                <div class="topEntry"></div>
-                <div class="botEntry"></div>
-            </div>
-            <div class="sideBar">
-                <div class="buttonBox"></div>
+        <div class="searchBar">
+            <h1>Dojonary</h1>
+            <input placeholder="Search" type="text">
+            <button onclick="inOut(this)">Login</button>
+        </div>
+            <div class="main">
+                <div class="left">
+                    <div class="card">
+                        <div class="info">
+                            <h1>ninja</h1>
+                            <h2>noun</h2>
+                            <h3>Plural: ninjas</h3>
+                            <button onclick="ninjaLike()"> 13 likes</button>
+                        </div>
+                        <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span>.</p>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <h1>ninja</h1>
+                            <h2>noun</h2>
+                            <h3>Plural: ninjas</h3>
+                            <button onclick="ninjaLike()"> 37 likes</button>
+                        </div>
+                        <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <h1>Dojonary is defined by <span class = "stronk">YOU</span></h1>
+                    <button onclick="deletes(this)">Add Definition</button>
+                </div>
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

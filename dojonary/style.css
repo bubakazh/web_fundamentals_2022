@@ -2,3 +2,136 @@
     margin: 0px;
     padding: 0px;
 }
+
+.container{
+    width: 970px;
+    margin: 0px auto;
+}
+
+.searchBar{
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.searchBar > h1{
+    font-size: 37px;
+}
+
+.searchBar > input{
+    height: 27px;
+    width: 400px;
+    border: solid 3px black;
+    padding: 0px 10px;
+}
+
+.searchBar > button{
+    background-color: #2976e3;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    font-size: medium;
+}
+
+.main{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.left{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    border: 3px solid black;
+    margin: 20px 0px;
+    margin-right: 20px;
+    height: 200px;
+    padding: 15px;
+}
+
+.info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 0px; */
+}
+
+.info > h1{
+    margin-bottom: 10px;
+    font-size: 37px;
+}
+
+.info > h2{
+    margin-bottom: 10px;
+}
+
+.info > h3{
+    margin-bottom: 10px;
+}
+
+.info > button{
+    margin-top: 15px;
+    height: 25px;
+    width: 75px;
+    background-color: #ffd966;
+    border: solid black 2px;
+    box-shadow: 2px 2px 5px;
+    font-size: 15px;
+}
+
+.card > p{
+    flex: 3;
+    font-size: 25px;
+    padding: 0px 40px;
+}
+
+span{
+    color: #0d5192;
+    text-decoration: underline;
+}
+
+.right{
+    flex: 1;
+    height: 175px;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right > button{
+    margin-top: 10px;
+    height: 40px;
+    width: 198px;
+    font-size: 21px;
+    background-color: #93c47d;
+    border: solid black 2px;
+    box-shadow: 2px 2px 5px;
+}
+
+.right > h1{
+    font-weight: light;
+}
+
+.stronk{
+    font-size: 30px;
+    font-style: bolder;
+    text-decoration: none;
+    color: black;
+}
