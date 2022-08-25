@@ -4,12 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BECOMING A YELLOW BELT</title>
+    <title>Gaming Dojo: All Your Gaming Needs!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-
+        <div class="bar">
+            <h1 class = "logo">Gaming <span class = "dojo">Dojo</span></h1>
+            <div class="barRight">
+                <select name="currenyNoLabel" id="currency">
+                    <option value="" disabled hidden selected>Choose one</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                    <option value="">JPY</option>
+                    <option value="">KRW</option>
+                    <option value="">TWD</option>
+                    <option value="">CNY</option>
+                    <option value="">PHP</option>
+                </select>
+                <div class="kaimono">
+                    <img class = "cart" src="./images/cart-light.png" alt="shopping cart">
+                    <p id = "buyTems">0</p>
+                </div>
+                <img class = "glass" src="./images/search-light.png" alt="magnifying glass">
+            </div>
+        </div>
+        <h1 class = "header">Highlights</h1>
+        <div class="main">
+            <div class="banner">
+                <img onclick = "reverseDelta()" class = "chevron" id = "chevLeft" src="./images/chevron-left.png" alt="left arrow">
+                <img class = "bigBanner" id = "buyMe" src="./images/pixel-ninjas-2.png" alt="big banner for pixel ninjas 2">
+                <img onclick = "imgDelta()" class = "chevron" id = "chevRight" src="./images/chevron-left.png" alt="right arrow">
+            </div>
+            <div class="fakeSelector">
+                <div class = "selector"></div>
+                <div class = "selector" id = "selected"></div>
+                <div class = "selector"></div>
+                <div class = "selector"></div>
+            </div>
+            <div class="shopping">
+                <div class="game" id ="neko">
+                    <img src="./images/cafe-neko.png" alt="banner for game Cafe Neko: Gold Edition">
+                    <div class="gameInfo">
+                        <h2>Cafe Neko: Gold Edition</h2>
+                        <div class="compatibility">
+                            <img class = "osIcon" src="./images/windows.png" alt="windows icon">
+                            <img class = "osIcon" src="./images/apple.png" alt="Mac apple icon">
+                        </div>
+                        <div class="bin">
+                            <h3 class = "discount">-20%</h3>
+                            <div class = "price">
+                                <p class ="oldPrice">$14.98</p>
+                                <p class ="newPrice">$10.49</p>
+                            </div>
+                            <button class = "buyBtn" onclick="addtoCart()">BUY</button>
+                        </div>
+                    </div>
+                </div>
+                <div class ="game" id ="pixel">
+                    <img src="./images/pixel-ninjas-2.png" alt="banner for game Pixel Ninjas 2">
+                    <div class="gameInfo">
+                        <h2>Pixel Ninjas 2</h2>
+                        <div class="compatibility">
+                            <img class = "osIcon" src="./images/windows.png" alt="windows icon">
+                            <img class = "osIcon" src="./images/apple.png" alt="Mac apple icon">
+                        </div>
+                        <div class="bin">
+                            <h3 class = "discount">-10%</h3>
+                            <div class = "price">
+                                <p class ="oldPrice">$8.19</p>
+                                <p class ="newPrice">$7.39</p>
+                            </div>
+                            <button class = "buyBtn" onclick="addtoCart()">BUY</button>
+                        </div>
+                    </div>
+                </div>
+                <div class ="game" id ="stone">
+                    <img src="./images/stonepunk.png" alt="banner for game Stonepunk">
+                    <div class="gameInfo">
+                        <h2>Stonepunk</h2>
+                        <div class="compatibility">
+                            <img class = "osIcon" src="./images/windows.png" alt="windows icon">
+                            <img class = "osIcon" src="./images/apple.png" alt="Mac apple icon">
+                            <img onclick = "compCheck()" class = "osIcon" id = "Linux" src="./images/linux.png" alt="Linux Penguin icon">
+                        </div>
+                        <div class="bin">
+                            <h3 class = "discount">NEW</h3>
+                            <div class = "price">
+                                <p class ="oldPrice"></p>
+                                <p class ="newPrice">$19.99</p>
+                            </div>
+                            <button class = "buyBtn" onclick="addtoCart()">BUY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
