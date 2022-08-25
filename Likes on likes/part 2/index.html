@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes on likes on likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class = "header">NETWORK</h1>
+        <h1 class="feed">Your Feed</h1>
+        <div class="main">
+            <div class="left">
+                <img class = "avatar" src="./images/user-circle.png" alt="default image for no avatar uploaded">
+                <p class = "adding">Add an Avatar</p>
+                <h2>James Doe</h2>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="cardTop">
+                        <h1>Neil M</h1>
+                        <div class="likey">
+                            <p id="dopamine">0 like(s)</p>
+                            <button onclick = "likeMe()">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new Discord bot. Let me know what you all think! <span>Link</span></p>
+                </div>
+                <div class="card">
+                    <div class="cardTop">
+                        <h1>Nichole K</h1>
+                        <div class="likey">
+                            <p id="serotonin">0 like(s)</p>
+                            <button onclick = "noMe()">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <span>next comic</span>; check it out!</p>
+                </div>
+                <div class="card">
+                    <div class="cardTop">
+                        <h1>Jim R</h1>
+                        <div class="likey">
+                            <p id="adrenaline">0 like(s)</p>
+                            <button onclick = "noNoMe()">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to this <span>new album</span>! Anyone else love it as much as I do?!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
